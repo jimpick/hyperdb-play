@@ -12,6 +12,7 @@ db.put('/hello', 'world', function (err) {
   db.get('/hello', function (err, nodes) {
     if (err) throw err
     console.log('/hello --> ' + nodes[0].value)
-    console.log('db.local', db.local.discoveryKey.toString('hex'))
+    console.log('db.local.discoveryKey', db.local.discoveryKey.toString('hex'))
+    console.log('db.local.key', db.local.key.toString('hex'))
   })
 })

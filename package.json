@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "hyperdb": "^2.0.0",
-    "hyperdiscovery": "^7.0.0"
+    "hyperdiscovery": "^7.0.0",
+    "hyperdrive": "^9.12.0"
   }
 }
