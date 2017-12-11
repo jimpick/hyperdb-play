@@ -7,7 +7,7 @@ archive.on('ready', function () {
   console.log('key', archive.key.toString('hex'))
   var sw = swarm(archive)
   sw.on('connection', function (peer, type) {
-    console.log('got', peer, type) 
+    // console.log('got', peer, type)
     console.log('connected to', sw.connections.length, 'peers')
     peer.on('close', function () {
       console.log('peer disconnected')
